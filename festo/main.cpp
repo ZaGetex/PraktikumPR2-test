@@ -24,6 +24,7 @@ void emergency(FestoTransferSystem *,bool *);
 int main() {
     FestoTransferSystem festo;
     FSM fsm;
+    cout << "Start" << endl;
     //Motor motor(&festo);
 
     //Boot

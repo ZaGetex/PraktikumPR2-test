@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
 project(festo)
-
+set(CMAKE_EXE_LINKER_FLAGS "-static")
 set(CMAKE_CXX_STANDARD 14)
 
 ## Compiler Defines hier mittels add_definition hinzufügen
